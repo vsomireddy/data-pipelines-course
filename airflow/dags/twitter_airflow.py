@@ -68,6 +68,7 @@ def extract_tweet_data(tweepy_obj, query):
 
 def search_twitter(**kwargs):
     """ simple search for a query in public tweets"""
+    """ simple search for a query in public tweets"""
     query = kwargs.get('params').get('query')
     config = ConfigParser()
     config.read(CONFIG_FILE)
